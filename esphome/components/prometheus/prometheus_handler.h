@@ -7,6 +7,7 @@
 #include "esphome/components/web_server_base/web_server_base.h"
 #include "esphome/core/controller.h"
 #include "esphome/core/component.h"
+#include "esphome/core/application.h"
 
 namespace esphome {
 namespace prometheus {
