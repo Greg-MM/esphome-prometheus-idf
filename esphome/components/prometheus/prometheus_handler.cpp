@@ -1,4 +1,4 @@
-#ifdef USE_ARDUINO
+// ESP-IDF Compatibility
 
 #include "prometheus_handler.h"
 #include "esphome/core/application.h"
@@ -352,5 +352,3 @@ void PrometheusHandler::lock_row_(AsyncResponseStream *stream, lock::Lock *obj) 
 
 }  // namespace prometheus
 }  // namespace esphome
-
-#endif  // USE_ARDUINO

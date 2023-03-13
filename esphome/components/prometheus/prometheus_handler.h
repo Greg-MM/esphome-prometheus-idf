@@ -1,6 +1,5 @@
+// ESP-IDF Compatibility
 #pragma once
-
-#ifdef USE_ARDUINO
 
 #include <map>
 #include <utility>
@@ -118,5 +117,3 @@ class PrometheusHandler : public AsyncWebHandler, public Component {
 
 }  // namespace prometheus
 }  // namespace esphome
-
-#endif  // USE_ARDUINO
